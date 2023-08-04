@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import useInfoModal from "@/hooks/useInfoModal";
 
 interface MovieCardProps{
-    data : Record<string,any>[];
+    data : any[];
 }
 
 export default function MovieCard({data} : MovieCardProps){
